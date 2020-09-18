@@ -16,17 +16,10 @@ h1, h2, h3, h4, h5, h6, ul {
 .subtitle {
     font-size: 30px;
     font-style: italic;
-    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.page {
-    width: 1000px;
-    margin: 0 auto;
-}
-
 .my-name {
-    text-align: center;
     margin-top: 60px;
     font-size: 65px;
     font-family: Arial, Helvetica, sans-serif;
@@ -34,12 +27,17 @@ h1, h2, h3, h4, h5, h6, ul {
     font-weight: 700;
 }
 
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(45, 114, 219);
+}
+
 .navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(45, 114, 219);
 }
 
 .navbar li {
@@ -60,4 +58,11 @@ h1, h2, h3, h4, h5, h6, ul {
 
 .active {
     background-color: blue;
+}
+
+.center-screen {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
